@@ -1,0 +1,24 @@
+ /*Videos Section CSS*/
+ .messageSection{
+ 	width: 100%;
+ 	margin-top: 60px;
+ 	/*background-color: blue;*/
+ 	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+ 	font-size: 17px;
+ }
+ .messageRow{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .videoheader{
+ 	width: 100%;
+ }
+ .videoRow{
+ 	width: 100%;
+ 	margin-top: 20px;
+ 	margin-top: 10px;
+ }
+ .videorowcol{
+ 	margin-top: 10px;
+ 	box-shadow: 2px 1px 1px 0px #888888;
+ }

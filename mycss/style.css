@@ -8,6 +8,23 @@ body{
 .navbar a:hover{
 	color: white!important;
 }
+.topHeader a{
+	padding: 10px;
+	background-color: #0275d8;
+	color: white;
+	text-decoration: none;
+	border-radius: 7px;
+}
+.section2 a{
+	padding: 10px;
+	background-color: #d9534f;
+	color: white;
+	text-decoration: none;
+	border-radius: 7px;
+}
+.section2 a:hover, .topHeader a:hover{
+	color: silver;
+}
 .c-body{
 	width: 100%;
 }
@@ -56,7 +73,6 @@ body{
 }
 .section1{
 	background: linear-gradient(to right, #fdfbfb, #ebedee);
-	/*height: 50vh;*/
 }
 .sec1CardLogo{
 	margin-left: 40%;
@@ -65,7 +81,7 @@ body{
 	background-image:url(https://images.pexels.com/photos/1527934/pexels-photo-1527934.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 	background-size: cover;
 	color: #1a001a;
-	/*height: 50vh;*/
+	padding-bottom: 30px;
 }
 .section3{
 	margin-top: 20px;

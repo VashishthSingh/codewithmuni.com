@@ -1,0 +1,15 @@
+.topprogramssection{
+	width: 100%;
+ 	margin-top: 60px;
+ 	background-image: linear-gradient(120deg, #f0ad4e 0%, #d9534f 100%);
+ 	font-size: 17px;
+}
+.topprogramssection h3{
+	margin-top: 5px;
+	color: #f7f7f7;
+}
+.videosLinkSection{
+	width: 100%;
+	height: 30vh;
+	background-color: #f7f7f7;
+}

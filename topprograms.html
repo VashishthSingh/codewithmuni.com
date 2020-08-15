@@ -80,35 +80,103 @@
 	<!-- Message Section End-->
 
 	<!-- Top Programs Section Start -->
-	<div class="container">
+	<div class="container programsSectionForVideoLink">
 		<div class="row text-center videosLinkSection">
 			<div class="col-lg">
-				<h2>Programs On Recursion</h2>
+				<div class="singlyLinkedList headingDiv">Programs On Singly Linked List</div>
+				<div class="programsLinkArea programsLinkAreaSinglyLinkedList">
+					<!-- When Clicked Nothing Will Happen, No Response -->
+					<!-- <a class="btn btn-link">1st Program Name</a><br> -->
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
 			</div>
 		</div>
 		<div class="row text-center videosLinkSection">
 			<div class="col-lg">
-				<h2>Programs On Trees</h2>
+				<div class="doublyLinkedList headingDiv">Programs On Doubly Linked List</div>
+				<div class="programsLinkArea programsLinkAreaDoublyLinkedList">
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
 			</div>
 		</div>
 		<div class="row text-center videosLinkSection">
 			<div class="col-lg">
-				<h2>Programs On Linear Searching</h2>
+				<div class="linearSreach headingDiv">Programs On Linear Searching</div>
+				<div class="programsLinkArea programsLinkAreaLinearSearch">
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
 			</div>
 		</div>
 		<div class="row text-center videosLinkSection">
 			<div class="col-lg">
-				<h2>Programs On Binary Searching</h2>
+				<div class="binarySreach headingDiv">Programs On Binary Searching</div>
+				<div class="programsLinkArea programsLinkAreaBinarySearch">
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
 			</div>
 		</div>
 		<div class="row text-center videosLinkSection">
 			<div class="col-lg">
-				<h2>Programs On Singly Linked List</h2>
+				<div class="arraysProgram headingDiv">Programs On Arrays</div>
+				<div class="programsLinkArea programsLinkAreaArray">
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
 			</div>
 		</div>
 		<div class="row text-center videosLinkSection">
 			<div class="col-lg">
-				<h2>Programs On Doubly Linked List</h2>
+				<div class="recursionPrograms headingDiv">Programs On Recursion</div>
+				<div class="programsLinkArea programsLinkAreaRecursion">
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center videosLinkSection">
+			<div class="col-lg">
+				<div class="treesPrograms headingDiv">Programs On Trees</div>
+				<div class="programsLinkArea programsLinkAreaTrees">
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center videosLinkSection">
+			<div class="col-lg">
+				<div class="heapPrograms headingDiv">Programs On Heap</div>
+				<div class="programsLinkArea programsLinkAreaHeap">
+					<a href="">1st Program Name</a><br>
+					<a href="">2nd Program Name</a><br>
+					<a href="">3rd Program Name</a><br>
+					<a href="">4th Program Name</a><br>
+					<a href="">5th Program Name</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -149,10 +217,30 @@
 	<!-- javascript/jquery code -->
 
 	<script>
-		$(".videosLinkSection").hide();
 		$(document).ready(function(){
-	  		$(".btn2").click(function(){
-	    		$("p").slideDown();
+	  		$(".singlyLinkedList").click(function(){
+	    		$(".programsLinkAreaSinglyLinkedList").slideToggle();
+	  		});
+	  		$(".doublyLinkedList").click(function(){
+	    		$(".programsLinkAreaDoublyLinkedList").slideToggle();
+	  		});
+	  		$(".linearSreach").click(function(){
+	    		$(".programsLinkAreaLinearSearch").slideToggle();
+	  		});
+	  		$(".binarySreach").click(function(){
+	    		$(".programsLinkAreaBinarySearch").slideToggle();
+	  		});
+	  		$(".arraysProgram").click(function(){
+	    		$(".programsLinkAreaArray").slideToggle();
+	  		});
+	  		$(".recursionPrograms").click(function(){
+	    		$(".programsLinkAreaRecursion").slideToggle();
+	  		});
+	  		$(".treesPrograms").click(function(){
+	    		$(".programsLinkAreaTrees").slideToggle();
+	  		});
+	  		$(".heapPrograms").click(function(){
+	    		$(".programsLinkAreaHeap").slideToggle();
 	  		});
 		});
 	</script>
